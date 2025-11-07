@@ -219,7 +219,7 @@ camera_advanced ends
 hInstance HINSTANCE ?
 CommandLine LPSTR ?
 
-ClassName db "Sonic",0
+ClassName db "SONIC",0
 WindowTitle db "SONIC",0
 
 deltaTime dd 16
@@ -33973,3 +33973,4 @@ RenderHUD proc hdcBack:HDC
 RenderHUD endp
 
 end start
+
